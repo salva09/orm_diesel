@@ -9,7 +9,7 @@ In order to run the programs, run the following commands.
 ```bash
 target/release/select_all
 
-tager/release/inser_user
+tager/release/insert_user
 ```
 
 ## Built With
