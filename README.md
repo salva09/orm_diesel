@@ -10,12 +10,12 @@ In order to run the programs, run the following commands.
 # Print out all the users in the database
 target/release/select_all
 
-tager/release/insert_user
+target/release/insert_user
 
-tager/release/delete_user
+target/release/delete_user
 
 # this one print all users with and age of 18
-tager/release/query
+target/release/query
 ```
 
 ## Built With
