@@ -8,5 +8,5 @@ diesel migration run
 diesel migration redo
 
 cargo build
-cargo build --bin select_all
-cargo build --bin insert_user
+cargo build --bin select_all --release
+cargo build --bin insert_user --release
