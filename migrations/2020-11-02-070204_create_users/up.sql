@@ -1,7 +1,7 @@
 -- Your SQL goes here
 
 CREATE TABLE Users (
-  id INTEGER PRIMARY KEY,
+  id INTEGER PRIMARY KEY NOT NULL,
   name TEXT NOT NULL,
   email TEXT NOT NULL,
   age INTEGER NOT NULL
