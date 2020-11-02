@@ -10,3 +10,5 @@ diesel migration redo
 cargo build
 cargo build --bin select_all --release
 cargo build --bin insert_user --release
+cargo build --bin delete_user --release
+cargo build --bin query --release
