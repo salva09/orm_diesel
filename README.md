@@ -15,7 +15,7 @@ tager/release/insert_user
 ## Built With
 
 * [Rust](https://www.rust-lang.org/) - Programming language
-* [SQLite](https://www.sqlite.org/index.html) - Database
+* [SQLite](https://www.sqlite.org/index.html) - SQL database engine
 * [Diesel](http://diesel.rs/) - ORM Framework
 
 ## Author
