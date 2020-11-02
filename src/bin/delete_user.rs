@@ -20,7 +20,7 @@ fn main() {
         .expect("Failed to select users")
         .len() == 1;
 
-    if (valid_id) {
+    if valid_id {
         diesel::delete(Users.find(wanted_id))
             .execute(&connection)
             .expect("Failed to delete user");
