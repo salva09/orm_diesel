@@ -13,7 +13,7 @@ fn main() {
         .expect("Error loading users");
 
 
-    if (users.len() > 0) {
+    if users.len() > 0 {
         println!("All 18 years old users:");
 
         for user in users {
