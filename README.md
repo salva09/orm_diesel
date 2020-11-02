@@ -7,9 +7,15 @@ It's only compatible with Ubuntu.
 ## Run the program
 In order to run the programs, run the following commands.
 ```bash
+# Print out all the users in the database
 target/release/select_all
 
 tager/release/insert_user
+
+tager/release/delete_user
+
+# this one print all users with and age of 18
+tager/release/query
 ```
 
 ## Built With
