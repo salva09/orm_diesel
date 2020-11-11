@@ -1,7 +1,7 @@
 # Simple project using Diesel ORM
 
 ## Setup all and build
-There is a script called *build.sh* that will install all the necessary and build the project. \
+There is a script called ```build.sh``` that will install all the necessary and build the project. \
 It's only compatible with Ubuntu.
 
 ## Run the program
