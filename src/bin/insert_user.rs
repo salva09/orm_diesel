@@ -26,6 +26,6 @@ fn main() {
     email = email.trim_end().to_string();
     age = age.trim_end().to_string();
 
-    let _ = create_user(&connection, &name, &email, &age.parse::<i32>().unwrap());
+    create_user(&connection, &name, &email, &age.parse::<i32>().unwrap());
     println!("User {} saved.", &name);
 }

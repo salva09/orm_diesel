@@ -23,9 +23,9 @@ pub fn create_user<'a>(conn: &SqliteConnection, name: &'a str, email: &'a str, a
     use schema::Users;
 
     let new_user = NewUser{
-        name: name,
-        email: email,
-        age: age,
+        name,
+        email,
+        age,
     };
 
     diesel::insert_into(Users::table)
