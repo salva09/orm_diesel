@@ -9,7 +9,7 @@ diesel setup
 diesel migration run
 diesel migration redo
 
-cargo build
+cargo build --release
 cargo build --bin select_all --release
 cargo build --bin insert_user --release
 cargo build --bin delete_user --release
