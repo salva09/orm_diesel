@@ -24,9 +24,11 @@ target/release/query
 * [SQLite](https://www.sqlite.org/index.html) - SQL database engine
 * [Diesel](http://diesel.rs/) - ORM Framework
 
-## Author
+## Authors
 
 * **Salvador** - [salva09](https://github.com/salva09)
+* **Yael** - [Yael2407](https://github.com/Yael2407)
+* **Silvia** - [layefly](https://github.com/layefly)
 
 ## License
 
