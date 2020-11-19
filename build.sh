@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 # Install dependencies (sqlite and dev libraries)
 if [ -f "/etc/debian-version" ]; then
     sudo apt-get install sqlite3 libsqlite3-dev -y
