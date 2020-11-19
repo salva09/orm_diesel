@@ -2,7 +2,7 @@
 if [ -f "/etc/debian-version" ]; then
     sudo apt-get install sqlite3 libsqlite3-dev -y
 elif [ -f "/etc/arch-release" ]; then
-    sudo pacman -S sqlite3 libsqilte3-dev --no-confirm
+    sudo pacman -S sqlite --noconfirm
 fi
 
 # Install diesel cli tool
