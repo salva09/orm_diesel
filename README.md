@@ -2,7 +2,7 @@
 
 ## Setup all and build
 There is a script called ```build.sh``` that will install all the necessary and build the project (give it some time). \
-It's only compatible with Ubuntu.
+The script runs on Debian-based and Arch-based distros.
 
 ## Run the program
 In order to run the programs, run the following commands.
