@@ -5,7 +5,7 @@ extern crate dotenv;
 pub mod models;
 pub mod schema;
 
-use self::models::{User, NewUser};
+use self::models::{NewUser};
 
 use diesel::prelude::*;
 use dotenv::dotenv;
@@ -19,14 +19,15 @@ pub fn establish_connection() -> SqliteConnection {
         .unwrap_or_else(|_| panic!("Error connecting to {}", database_url))
 }
 
-pub fn create_user<'a>(conn: &SqliteConnection, name: &'a str, email: &'a str, age: &'a i32) -> usize {
+pub fn create_user<'a>(
+    conn: &SqliteConnection,
+    name: &'a str,
+    email: &'a str,
+    age: &'a i32,
+) -> usize {
     use schema::Users;
 
-    let new_user = NewUser{
-        name,
-        email,
-        age,
-    };
+    let new_user = NewUser { name, email, age };
 
     diesel::insert_into(Users::table)
         .values(&new_user)

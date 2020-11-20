@@ -13,8 +13,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a442824-ab00-4819-a17c-fb6621441393" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/build.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,13 +39,6 @@
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
     <property name="settings.editor.selected.configurable" value="language.rust" />
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="RustProjectSettings">
     <option name="runRustfmtOnSave" value="true" />
     <option name="toolchainHomeDirectory" value="/usr/bin" />
@@ -68,6 +59,7 @@
       <workItem from="1605644953167" duration="788000" />
       <workItem from="1605645804230" duration="53000" />
       <workItem from="1605647597442" duration="42000" />
+      <workItem from="1605831031531" duration="432000" />
     </task>
     <servers />
   </component>
