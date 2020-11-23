@@ -16,6 +16,7 @@ fn main() {
     println!("Displaying {} users", results.len());
     for user in results {
         println!("-----------");
+        println!("ID: {}", user.id);
         println!("User: {}", user.name);
         println!("Email: {}", user.email);
         println!("Age: {}", user.age);
