@@ -6,27 +6,23 @@ use std::io::stdin;
 fn main() {
     use self::schema::Users::dsl::*;
 
-    let mut wanted_id = String::new();
+    let mut user_id = String::new();
 
-    println!("Enter the id to delete: ");
-    stdin().read_line(&mut wanted_id).expect("Failed to read input");
-    let wanted_id = wanted_id.trim_end().parse::<i32>().expect("Id not valid");
+    println!("Enter the user id to delete: ");
+    stdin()
+        .read_line(&mut user_id)
+        .expect("Failed to read input");
+    let user_id = user_id.trim_end().parse::<i32>().expect("Id not valid");
 
     let connection = establish_connection();
 
-    let valid_id = Users
-        .find(wanted_id)
-        .load::<User>(&connection)
-        .expect("Failed to select users")
-        .len() == 1;
+    let success = diesel::delete(Users.find(user_id))
+        .execute(&connection)
+        .expect(&format!("Unable to find user {}", user_id));
 
-    if valid_id {
-        diesel::delete(Users.find(wanted_id))
-            .execute(&connection)
-            .expect("Failed to delete user");
-
-        println!("Deleted the user {} succesfully", wanted_id);
+    if success == 1 {
+        println!("The user {} was deleted successfully", user_id);
     } else {
-        println!("Id not found.")
+        println!("User {} could not be deleted", user_id);
     }
 }
