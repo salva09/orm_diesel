@@ -19,7 +19,6 @@ diesel migration run
 diesel migration redo
 
 # Application building
-cargo build --release
 cargo build --bin select_all --release
 cargo build --bin insert_user --release
 cargo build --bin delete_user --release
