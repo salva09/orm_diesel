@@ -5,7 +5,7 @@
   </component>
   <component name="CMakeSettings">
     <configurations>
-      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" ENABLED="true" />
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
     </configurations>
   </component>
   <component name="CargoProjects">
@@ -14,7 +14,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6a442824-ab00-4819-a17c-fb6621441393" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/select_all.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/bin/select_all.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +39,31 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
-    <property name="settings.editor.selected.configurable" value="language.rust.rustfmt" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Run select_all" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="channel" value="DEFAULT" />
+      <option name="command" value="run --package orm_diesel --bin select_all" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cargo.Run select_all" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="RustProjectSettings">
     <option name="runRustfmtOnSave" value="true" />
@@ -64,7 +88,41 @@
       <workItem from="1605831031531" duration="432000" />
       <workItem from="1605850393610" duration="1597000" />
       <workItem from="1606085514961" duration="85000" />
+      <workItem from="1606105781694" duration="44000" />
+      <workItem from="1606105874492" duration="638000" />
+      <workItem from="1606108399913" duration="56000" />
+      <workItem from="1606117599915" duration="58000" />
+      <workItem from="1606118104152" duration="12000" />
+      <workItem from="1606118928987" duration="32000" />
+      <workItem from="1606119317144" duration="63000" />
+      <workItem from="1606157518129" duration="1287000" />
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="283" y="42" key="#Plugins" timestamp="1606118959068">
+      <screen x="0" y="28" width="1366" height="740" />
+    </state>
+    <state x="283" y="42" key="#Plugins/0.28.1366.740@0.28.1366.740" timestamp="1606118959068" />
+    <state width="1320" height="175" key="GridCell.Tab.0.bottom" timestamp="1606159008268">
+      <screen x="0" y="28" width="1366" height="740" />
+    </state>
+    <state width="1320" height="175" key="GridCell.Tab.0.bottom/0.28.1366.740@0.28.1366.740" timestamp="1606159008268" />
+    <state width="1320" height="175" key="GridCell.Tab.0.center" timestamp="1606159008268">
+      <screen x="0" y="28" width="1366" height="740" />
+    </state>
+    <state width="1320" height="175" key="GridCell.Tab.0.center/0.28.1366.740@0.28.1366.740" timestamp="1606159008268" />
+    <state width="1320" height="175" key="GridCell.Tab.0.left" timestamp="1606159008267">
+      <screen x="0" y="28" width="1366" height="740" />
+    </state>
+    <state width="1320" height="175" key="GridCell.Tab.0.left/0.28.1366.740@0.28.1366.740" timestamp="1606159008267" />
+    <state width="1320" height="175" key="GridCell.Tab.0.right" timestamp="1606159008268">
+      <screen x="0" y="28" width="1366" height="740" />
+    </state>
+    <state width="1320" height="175" key="GridCell.Tab.0.right/0.28.1366.740@0.28.1366.740" timestamp="1606159008268" />
+    <state x="179" y="33" key="SettingsEditor" timestamp="1606159001231">
+      <screen x="0" y="28" width="1366" height="740" />
+    </state>
+    <state x="179" y="33" key="SettingsEditor/0.28.1366.740@0.28.1366.740" timestamp="1606159001231" />
   </component>
 </project>
