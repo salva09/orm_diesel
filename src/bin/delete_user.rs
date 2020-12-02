@@ -18,7 +18,7 @@ fn main() {
 
     let success = diesel::delete(Users.find(user_id))
         .execute(&connection)
-        .expect(&format!("Unable to find user {}", user_id));
+        .unwrap();
 
     if success == 1 {
         println!("The user {} was deleted successfully", user_id);

@@ -23,18 +23,26 @@
   </component>
   <component name="CMakeSettings">
     <configurations>
-      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" ENABLED="true" />
     </configurations>
   </component>
   <component name="CargoProjects">
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a442824-ab00-4819-a17c-fb6621441393" name="Default Changelist" comment="Improve formatting">
+    <list default="true" id="6a442824-ab00-4819-a17c-fb6621441393" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bin/delete_user.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/bin/delete_user.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bin/select_all.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/bin/select_all.rs" afterDir="false" />
     </list>
+    <disabled>
+      <disabled_changelists>
+        <list default="true" id="6a442824-ab00-4819-a17c-fb6621441393" name="Default Changelist" comment="IDE stuff">
+          <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+          <change beforePath="$PROJECT_DIR$/src/bin/delete_user.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/bin/delete_user.rs" afterDir="false" />
+        </list>
+      </disabled_changelists>
+      <disabled_trackers />
+    </disabled>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,9 +66,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
   </component>
-  <component name="RunManager" selected="Cargo.Run select_all">
+  <component name="RunManager" selected="Cargo.Run delete_user">
     <configuration name="Run delete_user" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="channel" value="DEFAULT" />
       <option name="command" value="run --package orm_diesel --bin delete_user" />
@@ -95,11 +103,6 @@
       <envs />
       <method v="2">
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
@@ -140,7 +143,12 @@
       <workItem from="1606118104152" duration="12000" />
       <workItem from="1606118928987" duration="32000" />
       <workItem from="1606119317144" duration="63000" />
-      <workItem from="1606157518129" duration="2570000" />
+      <workItem from="1606157518129" duration="2720000" />
+      <workItem from="1606198719167" duration="169000" />
+      <workItem from="1606198946203" duration="49000" />
+      <workItem from="1606245029828" duration="29000" />
+      <workItem from="1606936787201" duration="2000" />
+      <workItem from="1606936871050" duration="378000" />
     </task>
     <task id="LOCAL-00001" summary="Improve formatting">
       <created>1606159053272</created>
@@ -149,7 +157,28 @@
       <option name="project" value="LOCAL" />
       <updated>1606159053272</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Better output">
+      <created>1606160410916</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606160410916</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add id output">
+      <created>1606160433552</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1606160433552</updated>
+    </task>
+    <task id="LOCAL-00004" summary="IDE stuff">
+      <created>1606160443010</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1606160443010</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -162,43 +191,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Improve formatting" />
-    <option name="LAST_COMMIT_MESSAGE" value="Improve formatting" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="283" y="42" key="#Plugins" timestamp="1606118959068">
-      <screen x="0" y="28" width="1366" height="740" />
-    </state>
-    <state x="283" y="42" key="#Plugins/0.28.1366.740@0.28.1366.740" timestamp="1606118959068" />
-    <state x="281" y="28" key="CommitChangelistDialog2" timestamp="1606159040885">
-      <screen x="0" y="28" width="1366" height="740" />
-    </state>
-    <state x="281" y="28" key="CommitChangelistDialog2/0.28.1366.740@0.28.1366.740" timestamp="1606159040885" />
-    <state width="1320" height="175" key="GridCell.Tab.0.bottom" timestamp="1606160287889">
-      <screen x="0" y="28" width="1366" height="740" />
-    </state>
-    <state width="1320" height="175" key="GridCell.Tab.0.bottom/0.28.1366.740@0.28.1366.740" timestamp="1606160287889" />
-    <state width="1320" height="175" key="GridCell.Tab.0.center" timestamp="1606160287889">
-      <screen x="0" y="28" width="1366" height="740" />
-    </state>
-    <state width="1320" height="175" key="GridCell.Tab.0.center/0.28.1366.740@0.28.1366.740" timestamp="1606160287889" />
-    <state width="1320" height="175" key="GridCell.Tab.0.left" timestamp="1606160287888">
-      <screen x="0" y="28" width="1366" height="740" />
-    </state>
-    <state width="1320" height="175" key="GridCell.Tab.0.left/0.28.1366.740@0.28.1366.740" timestamp="1606160287888" />
-    <state width="1320" height="175" key="GridCell.Tab.0.right" timestamp="1606160287889">
-      <screen x="0" y="28" width="1366" height="740" />
-    </state>
-    <state width="1320" height="175" key="GridCell.Tab.0.right/0.28.1366.740@0.28.1366.740" timestamp="1606160287889" />
-    <state x="179" y="33" key="SettingsEditor" timestamp="1606159001231">
-      <screen x="0" y="28" width="1366" height="740" />
-    </state>
-    <state x="179" y="33" key="SettingsEditor/0.28.1366.740@0.28.1366.740" timestamp="1606159001231" />
-    <state x="283" y="134" key="Vcs.Push.Dialog.v2" timestamp="1606159058616">
-      <screen x="0" y="28" width="1366" height="740" />
-    </state>
-    <state x="283" y="134" key="Vcs.Push.Dialog.v2/0.28.1366.740@0.28.1366.740" timestamp="1606159058616" />
+    <MESSAGE value="Better output" />
+    <MESSAGE value="Add id output" />
+    <MESSAGE value="IDE stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="IDE stuff" />
   </component>
 </project>
